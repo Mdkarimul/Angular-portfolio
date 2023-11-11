@@ -1,0 +1,40 @@
+.nav-cont {
+  width: 100%;
+  height: auto;
+  float: left;
+}
+
+mat-toolbar {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  float: left;
+}
+
+mat-toolbar-row {
+  width: auto;
+}
+
+.nav-bar {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-bar .nav-bar-items a {
+  margin: 10px;
+  padding: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Roboto Mono", monospace;
+}
+
+.btn-download {
+  color: #fff;
+  font-size: 15px;
+  background-color: rgb(25, 163, 223);
+  padding: 15px 15px;
+}

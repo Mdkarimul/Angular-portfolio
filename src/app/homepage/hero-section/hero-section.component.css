@@ -1,0 +1,58 @@
+.hero-section {
+  float: left;
+  background-color: #F8F8FF;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-content {
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.hero-content .sub-title {
+  color: #9318eb;
+  text-transform: capitalize;
+  font-size: 1rem;
+}
+
+.hero-content .title {
+  color: #9318eb;
+  text-transform: capitalize;
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+.hero-content .title span {
+  color: #9318eb;
+  text-transform: capitalize;
+  font-size: 2.5rem;
+}
+
+.hero-content .paragraph {
+  color: #005;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 35px;
+}
+
+.hero-content .btn-cont {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: auto;
+  display: flex;
+  justify-content: flex-start;
+  background-color: #005;
+  border-radius: 5px;
+}
+
+.hero-content .btn-cont .btn-social {
+  margin: 18px;
+  cursor: pointer;
+}
