@@ -1,7 +1,189 @@
 .portfolio {
   width: 100%;
-  height: 400px;
-  background-color: green;
+  height: auto;
   float: left;
   margin: 100px auto;
+}
+
+.service-heading {
+  width: 90%;
+  height: auto;
+  float: left;
+  margin-top: 100px;
+  margin-left: 5%;
+  padding: 0px 20px;
+  background-color: rgba(147, 24, 235, 0.3294117647);
+  border-radius: 5px;
+}
+
+.service-heading .sub-title {
+  font-family: "Roboto Mono", monospace;
+  color: #9318eb;
+  text-transform: capitalize;
+  font-size: 1rem;
+  margin-top: 8px;
+}
+
+.service-heading .title {
+  font-family: "Roboto Mono", monospace;
+  color: #9318eb;
+  font-size: 1.5rem;
+}
+
+.project-one {
+  width: 90%;
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 5%;
+  margin: 30px 5%;
+  background-color: #ddd;
+  border-radius: 5px;
+}
+
+.project-one .image-cont {
+  width: 45%;
+  height: auto;
+  padding: 30px;
+}
+
+.project-one .desc-cont {
+  width: 45%;
+  height: auto;
+}
+
+.project-two {
+  width: 90%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 5%;
+  margin: 30px 5%;
+  border-radius: 5px;
+}
+
+.project-two .image-cont {
+  width: 45%;
+  height: auto;
+  padding: 30px;
+}
+
+.project-two .desc-cont {
+  width: 45%;
+  height: auto;
+}
+
+.project-three {
+  width: 90%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 5%;
+  margin: 30px 5%;
+  background-color: #ddd;
+  border-radius: 5px;
+}
+
+.project-three .image-cont {
+  width: 45%;
+  height: auto;
+  padding: 30px;
+}
+
+.project-three .desc-cont {
+  width: 45%;
+  height: auto;
+}
+
+.project-four {
+  width: 90%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 5%;
+  margin: 30px 5%;
+  border-radius: 5px;
+}
+
+.project-four .image-cont {
+  width: 45%;
+  height: auto;
+  padding: 30px;
+}
+
+.project-four .desc-cont {
+  width: 45%;
+  height: auto;
+}
+
+.project-five {
+  width: 90%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 5%;
+  margin: 30px 5%;
+  background-color: #ddd;
+  border-radius: 5px;
+}
+
+.project-five .image-cont {
+  width: 45%;
+  height: auto;
+  padding: 30px;
+}
+
+.project-five .desc-cont {
+  width: 45%;
+  height: auto;
+}
+
+.title {
+  font-size: 20px;
+  font-family: "Roboto Mono", monospace;
+  margin-bottom: 15px;
+  color: #005;
+}
+
+.paragraph {
+  font-size: 16px;
+  margin-bottom: 20px;
+  font-family: "Roboto Mono", monospace;
+}
+
+.btn-cont {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: auto;
+  border: 1px solid #9318eb;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgba(181, 152, 201, 0.6509803922);
+}
+
+.btn-github, .btn-live {
+  border: 1px solid #9318eb;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 40px;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: rgba(147, 24, 235, 0.2823529412);
+  font-size: 15px;
+  font-family: "Roboto Mono", monospace;
+  margin-left: 15px;
+}
+
+.btn-github, .btn-live {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }

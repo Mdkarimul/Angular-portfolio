@@ -2,6 +2,8 @@
     width: 100%;
     height:auto;
     float: left;
+    background-color: rgba(190, 13, 13, 0.253);
+
 }
 mat-toolbar{
     display: flex;
@@ -13,6 +15,7 @@ mat-toolbar{
 }
 mat-toolbar-row{
     width:auto;
+    height: auto;
 }
 .nav-bar{
     flex-grow: 1;
@@ -20,33 +23,72 @@ mat-toolbar-row{
     justify-content: center;
     align-items: center;
 }
-.nav-bar-items{
 
-}
 .nav-bar .nav-bar-items a{
-    margin: 10px;
-    padding: 10px;
+     margin: 0px 5px;
+    padding: 15px 10px;
     text-decoration: none;
-    text-transform:capitalize;
-    font-family: 'Roboto Mono', monospace;
+    text-transform:uppercase;
     font-weight: bold;
     font-size: 14px;
     letter-spacing: 2px;
+    color: var(--color1);
 }
 .btn-download{
-    color: #ddd;
-    font-size:15px;
+    color: var(--color1);
+    font-size:13px;
     font-weight:500;
-    background-color: rgb(11, 16, 17);
-    padding:10px 13px;
-    border: none;
+    background-color:transparent;
+    padding:8px 10px;
+    border: 1px solid var(--bg1);
     border-radius: 5px;
     cursor: pointer;
     display: flex;
     justify-content:space-between;
     align-items: center;
-    letter-spacing: 2px;
-   
+    letter-spacing: 2px; 
+}
+
+.nav{
+    box-shadow: 1px 1px 2px 3px #9c1111dd!important;
+}
+
+.menu-btn{
+    width:100px;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.menu-btn button{
+    padding:10px 10px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+@media(max-width:1000px){
+    .nav-bar .nav-bar-items a{
+        width: 100%;
+        height: auto;
+        float: left;
+    }
+    .nav-bar {
+        position: relative;
+       
+    }
+    .nav-bar .nav-bar-items {
+
+        display:block;
+        position: absolute;
+       top:30px;
+       left: 0px;
+        z-index: 10;
+        width:fit-content;
+        
+
+    }
 }
 
 

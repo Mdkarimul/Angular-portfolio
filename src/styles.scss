@@ -38,6 +38,17 @@ $portfolio-theme: mat.define-light-theme((
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
+
+:root{
+  --color1:#050113;
+  --color2:#100b16;
+  --bg1:#bc11df;
+  --bg2:#8204ca;
+}
+
+
+
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; background-color: var(--bg1) }

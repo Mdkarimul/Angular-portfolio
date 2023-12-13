@@ -2,17 +2,21 @@
   width: 100%;
   height: auto;
   float: left;
-  border: 2px solid rgb(99, 91, 91);
+  background-image: url("../../../assets/service_pattern.svg");
+  background-color: #ddd;
+  padding-bottom: 50px;
 }
 
 .service-heading {
   width: 90%;
   height: auto;
   float: left;
-  background-color: #3e3544;
+  margin-top: 100px;
+  padding: 20px;
 }
 
 .service-heading .sub-title {
+  font-family: "Roboto Mono", monospace;
   color: #9318eb;
   text-transform: capitalize;
   font-size: 1rem;
@@ -20,10 +24,9 @@
 }
 
 .service-heading .title {
+  font-family: "Roboto Mono", monospace;
   color: #9318eb;
-  text-transform: capitalize;
-  font-size: 2rem;
-  margin-bottom: 15px;
+  font-size: 1.5rem;
   text-align: center;
 }
 
@@ -37,20 +40,161 @@
 }
 
 .service-item {
-  width: 90%;
-  height: auto;
-  border: 1px solid rgb(29, 24, 24);
-}
-
-.service-item div {
   width: 100%;
   height: auto;
+  margin: auto;
+}
+
+.service-item .service-item-container {
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: space-around;
 }
 
-.service-item div .front-end {
-  width: 20%;
-  height: 500px;
-  background-color: #9318eb;
+.service-item .service-item-container .front-end {
+  width: 25%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.service-item .service-item-container .front-end .img-cont {
+  width: 100%;
+  height: 60%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.service-item .service-item-container .front-end .text-cont {
+  width: 100%;
+  height: 40%;
+}
+
+.service-item .service-item-container .front-end .text-cont {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+.service-item .service-item-container .front-end .text-cont .heading {
+  font-family: "Roboto Mono", monospace;
+  text-transform: uppercase;
+  color: #005;
+  margin-bottom: 15px;
+}
+
+.service-item .service-item-container .front-end .text-cont .paragraph {
+  font-family: "Roboto Mono", monospace;
+  letter-spacing: 0px;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.service-item .service-item-container .front-end .text-cont button {
+  border: 1px solid #9318eb;
+  width: 40%;
+  height: 40px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgba(147, 24, 235, 0.2823529412);
+}
+
+.service-item .service-item-container .back-end {
+  width: 25%;
+  height: auto;
+}
+
+.service-item .service-item-container .back-end .img-cont {
+  width: 100%;
+  height: 60%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.service-item .service-item-container .back-end .text-cont {
+  width: 100%;
+  height: 40%;
+}
+
+.service-item .service-item-container .back-end .text-cont {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+.service-item .service-item-container .back-end .text-cont .heading {
+  font-family: "Roboto Mono", monospace;
+  text-transform: uppercase;
+  color: #005;
+  margin-bottom: 15px;
+}
+
+.service-item .service-item-container .back-end .text-cont .paragraph {
+  font-family: "Roboto Mono", monospace;
+  letter-spacing: 0px;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.service-item .service-item-container .back-end .text-cont button {
+  border: 1px solid #9318eb;
+  width: 40%;
+  height: 40px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgba(147, 24, 235, 0.2823529412);
+}
+
+.service-item .service-item-container .devops {
+  width: 25%;
+  height: auto;
+}
+
+.service-item .service-item-container .devops .img-cont {
+  width: 100%;
+  height: 60%;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.service-item .service-item-container .devops .text-cont {
+  width: 100%;
+  height: 40%;
+}
+
+.service-item .service-item-container .devops .text-cont {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+.service-item .service-item-container .devops .text-cont .heading {
+  font-family: "Roboto Mono", monospace;
+  text-transform: uppercase;
+  color: #005;
+  margin-bottom: 15px;
+}
+
+.service-item .service-item-container .devops .text-cont .paragraph {
+  font-family: "Roboto Mono", monospace;
+  letter-spacing: 0px;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.service-item .service-item-container .devops .text-cont button {
+  border: 1px solid #9318eb;
+  width: 40%;
+  height: 40px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgba(147, 24, 235, 0.2823529412);
 }

@@ -1,7 +1,7 @@
 .nav-cont {
   width: 100%;
   height: auto;
-  float: left;
+  border: 1px solid red;
 }
 
 mat-toolbar {
@@ -28,13 +28,24 @@ mat-toolbar-row {
   margin: 10px;
   padding: 10px;
   text-decoration: none;
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-family: "Roboto Mono", monospace;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 2px;
 }
 
 .btn-download {
-  color: #fff;
-  font-size: 15px;
-  background-color: rgb(25, 163, 223);
-  padding: 15px 15px;
+  color: #ddd;
+  font-size: 13px;
+  font-weight: 500;
+  background-color: transparent;
+  padding: 8px 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  letter-spacing: 2px;
 }

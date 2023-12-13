@@ -11,6 +11,7 @@ import { ServicesComponent } from '../services/services.component';
 import { FooterComponent } from '../footer/footer.component';
 import { PortfolioComponent } from '../portfolio/portfolio.component';
 import { ClientFeedComponent } from '../client-feed/client-feed.component';
+import { ContactComponent } from '../contact/contact.component';
 @NgModule({
   declarations: [
     HomeComponent,
@@ -20,7 +21,8 @@ import { ClientFeedComponent } from '../client-feed/client-feed.component';
     ServicesComponent,
     FooterComponent,
     PortfolioComponent,
-    ClientFeedComponent
+    ClientFeedComponent,
+    ContactComponent
   ],
   imports: [
     CommonModule,
