@@ -1,7 +1,7 @@
 .nav-cont {
   width: 100%;
   height: auto;
-  border: 1px solid red;
+  float: left;
 }
 
 mat-toolbar {
@@ -15,6 +15,7 @@ mat-toolbar {
 
 mat-toolbar-row {
   width: auto;
+  height: auto;
 }
 
 .nav-bar {
@@ -25,27 +26,61 @@ mat-toolbar-row {
 }
 
 .nav-bar .nav-bar-items a {
-  margin: 10px;
-  padding: 10px;
+  margin: 0px 5px;
+  padding: 15px 10px;
   text-decoration: none;
-  text-transform: capitalize;
-  font-family: "Roboto Mono", monospace;
+  text-transform: uppercase;
   font-weight: bold;
   font-size: 14px;
   letter-spacing: 2px;
+  color: var(--color2);
 }
 
 .btn-download {
-  color: #ddd;
+  color: var(--color1);
   font-size: 13px;
   font-weight: 500;
-  background-color: transparent;
+  background-color: var(--bg2);
   padding: 8px 10px;
-  border: 1px solid #ddd;
+  border: 1px solid var(--bg1);
   border-radius: 5px;
-  cursor: pointer;
   display: flex;
   justify-content: space-between;
   align-items: center;
   letter-spacing: 2px;
+}
+
+.menu-btn {
+  width: 100px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.menu-btn button {
+  padding: 10px 10px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+  .nav-bar .nav-bar-items a {
+    width: 100%;
+    height: auto;
+    float: left;
+  }
+  .nav-bar {
+    position: relative;
+  }
+  .nav-bar .nav-bar-items {
+    display: block;
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    z-index: 10;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
 }

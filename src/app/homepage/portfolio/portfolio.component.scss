@@ -1,22 +1,44 @@
-.portfolio{
-    width: 100%;
-    height:auto;
-    float: left;
-    margin: 100px auto;
+.portfolio-content{
+width:80%;
+height:auto;
+float:left;
+margin: 10px 10%;
+// border: 2px solid  rgb(135, 135, 153);
+
 }
 .service-heading{
     width:100%;
     text-align: center;
     height:auto;
     margin:100px 0px;
-    margin-left: 5%;
     padding: 0px 20px; 
     border-radius: 5px;
 }
 
+.service-heading .subtitle-cont{
+    position: relative;
+    width: auto;
+    height: 50px;
+ }
+ .service-heading .sub-title{
+     color:#9318eb;
+     text-transform:uppercase;
+     font-size: 1rem;
+     position: relative;
+ }
+ .service-heading .sub-title .one{
+     animation: one 1s ease-in infinite backwards;
+     position: relative;
+ }
+ 
+ @keyframes one {
+     0%{ font-size:0.5rem;font-weight: bold; }
+     100%{ font-size: 2.5rem;font-weight: bold; }
+ }
+
 .service-heading .sub-title{
     color:#9318eb;
-    text-transform: capitalize;
+    text-transform: uppercase;
     font-size: 1rem;
     margin-top: 8px;
     
@@ -109,7 +131,7 @@
     border-radius:5px;
     padding: 10px 20px;
     cursor: pointer;
-    background-color:#9318eb48;
+    background-image: linear-gradient(to right ,var(--bg1), var(--bg2));
     font-size: 15px;
     font-family: 'Roboto Mono', monospace;
     margin-left:15px;
@@ -118,6 +140,27 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+.btn-github span,.btn-live span{
+    background-color: var(--color1);
+    padding:2px 5px;
+    border-radius: 5px;
+    -webkit-mask-image: linear-gradient(black, transparent);
+    mask-image: linear-gradient(black, transparent);
+}
+.btn-download{
+    color: var(--color1);
+    font-size:14px;
+    font-weight:500;
+    background-image: linear-gradient(to right ,var(--bg1), var(--bg2));
+    padding:12px 14px;
+    border: 1px solid var(--bg1);
+    border-radius: 5px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    letter-spacing: 2px; 
+    margin:120px auto;
 }
 
 

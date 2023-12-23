@@ -1,16 +1,15 @@
-.services {
+.services-cont {
   width: 100%;
   height: auto;
   float: left;
-  background-image: url("../../../assets/service_pattern.svg");
   background-color: #ddd;
   padding-bottom: 50px;
+  border: 3px solid #005;
 }
 
 .service-heading {
   width: 90%;
   height: auto;
-  float: left;
   margin-top: 100px;
   padding: 20px;
 }
@@ -30,49 +29,87 @@
   text-align: center;
 }
 
-.about-content .paragraph {
-  color: rgba(0, 0, 85, 0.826);
-  font-weight: 400;
-  margin-bottom: 35px;
-  letter-spacing: 1px;
-  line-height: 20px;
-  word-spacing: 1px;
+.front-end {
+  width: 90%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  background-color: rgba(6, 6, 124, 0.1);
+  padding: 20px;
+  margin: auto;
+  border-radius: 5px;
 }
 
-.service-item {
+.front-end .img-cont {
+  margin: auto;
+  width: 90%;
+  height: 60%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  padding: 15px;
+  background-color: #005;
+}
+
+.front-end .text-cont {
   width: 100%;
+  height: 40%;
+}
+
+.front-end .text-cont {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+.front-end .text-cont .heading {
+  text-transform: uppercase;
+  color: #005;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.front-end .text-cont .paragraph {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.front-end .text-cont button {
+  border: 1px solid #9318eb;
+  width: 40%;
+  height: 40px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgba(147, 24, 235, 0.2823529412);
+}
+
+.back-end {
+  width: 90%;
   height: auto;
+  background-color: rgba(6, 6, 124, 0.1);
+  padding: 20px;
+  border-radius: 5px;
   margin: auto;
 }
 
-.service-item .service-item-container {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: space-around;
-}
-
-.service-item .service-item-container .front-end {
-  width: 25%;
-  height: auto;
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column;
-}
-
-.service-item .service-item-container .front-end .img-cont {
-  width: 100%;
+.back-end .img-cont {
+  margin: auto;
+  width: 90%;
   height: 60%;
   border-radius: 10px;
   margin-bottom: 15px;
+  padding: 15px;
+  background-color: #005;
 }
 
-.service-item .service-item-container .front-end .text-cont {
+.back-end .text-cont {
   width: 100%;
   height: 40%;
 }
 
-.service-item .service-item-container .front-end .text-cont {
+.back-end .text-cont {
   display: flex;
   justify-content: space-around;
   flex-direction: column;
@@ -80,21 +117,19 @@
   padding: 10px;
 }
 
-.service-item .service-item-container .front-end .text-cont .heading {
-  font-family: "Roboto Mono", monospace;
+.back-end .text-cont .heading {
   text-transform: uppercase;
   color: #005;
   margin-bottom: 15px;
+  font-size: 20px;
 }
 
-.service-item .service-item-container .front-end .text-cont .paragraph {
-  font-family: "Roboto Mono", monospace;
-  letter-spacing: 0px;
+.back-end .text-cont .paragraph {
   font-size: 16px;
   margin-bottom: 15px;
 }
 
-.service-item .service-item-container .front-end .text-cont button {
+.back-end .text-cont button {
   border: 1px solid #9318eb;
   width: 40%;
   height: 40px;
@@ -103,72 +138,31 @@
   background-color: rgba(147, 24, 235, 0.2823529412);
 }
 
-.service-item .service-item-container .back-end {
-  width: 25%;
+.devops {
+  width: 90%;
   height: auto;
-}
-
-.service-item .service-item-container .back-end .img-cont {
-  width: 100%;
-  height: 60%;
-  border-radius: 10px;
-  margin-bottom: 10px;
-}
-
-.service-item .service-item-container .back-end .text-cont {
-  width: 100%;
-  height: 40%;
-}
-
-.service-item .service-item-container .back-end .text-cont {
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 10px;
-}
-
-.service-item .service-item-container .back-end .text-cont .heading {
-  font-family: "Roboto Mono", monospace;
-  text-transform: uppercase;
-  color: #005;
-  margin-bottom: 15px;
-}
-
-.service-item .service-item-container .back-end .text-cont .paragraph {
-  font-family: "Roboto Mono", monospace;
-  letter-spacing: 0px;
-  font-size: 16px;
-  margin-bottom: 15px;
-}
-
-.service-item .service-item-container .back-end .text-cont button {
-  border: 1px solid #9318eb;
-  width: 40%;
-  height: 40px;
+  background-color: rgba(6, 6, 124, 0.1);
+  padding: 20px;
   border-radius: 5px;
-  cursor: pointer;
-  background-color: rgba(147, 24, 235, 0.2823529412);
+  margin: auto;
 }
 
-.service-item .service-item-container .devops {
-  width: 25%;
-  height: auto;
-}
-
-.service-item .service-item-container .devops .img-cont {
-  width: 100%;
+.devops .img-cont {
+  margin: auto;
+  width: 90%;
   height: 60%;
-  margin-bottom: 10px;
   border-radius: 10px;
+  margin-bottom: 15px;
+  padding: 15px;
+  background-color: #005;
 }
 
-.service-item .service-item-container .devops .text-cont {
+.devops .text-cont {
   width: 100%;
   height: 40%;
 }
 
-.service-item .service-item-container .devops .text-cont {
+.devops .text-cont {
   display: flex;
   justify-content: space-around;
   flex-direction: column;
@@ -176,21 +170,20 @@
   padding: 10px;
 }
 
-.service-item .service-item-container .devops .text-cont .heading {
+.devops .text-cont .heading {
   font-family: "Roboto Mono", monospace;
   text-transform: uppercase;
   color: #005;
   margin-bottom: 15px;
+  font-size: 20px;
 }
 
-.service-item .service-item-container .devops .text-cont .paragraph {
-  font-family: "Roboto Mono", monospace;
-  letter-spacing: 0px;
+.devops .text-cont .paragraph {
   font-size: 16px;
   margin-bottom: 15px;
 }
 
-.service-item .service-item-container .devops .text-cont button {
+.devops .text-cont button {
   border: 1px solid #9318eb;
   width: 40%;
   height: 40px;

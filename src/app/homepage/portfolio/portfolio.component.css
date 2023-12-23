@@ -1,23 +1,20 @@
-.portfolio {
+.portfolio-content {
   width: 100%;
   height: auto;
   float: left;
-  margin: 100px auto;
+  border: 2px solid rgb(135, 135, 153);
 }
 
 .service-heading {
-  width: 90%;
+  width: 100%;
+  text-align: center;
   height: auto;
-  float: left;
-  margin-top: 100px;
-  margin-left: 5%;
+  margin: 100px 0px;
   padding: 0px 20px;
-  background-color: rgba(147, 24, 235, 0.3294117647);
   border-radius: 5px;
 }
 
 .service-heading .sub-title {
-  font-family: "Roboto Mono", monospace;
   color: #9318eb;
   text-transform: capitalize;
   font-size: 1rem;
@@ -25,147 +22,79 @@
 }
 
 .service-heading .title {
-  font-family: "Roboto Mono", monospace;
   color: #9318eb;
   font-size: 1.5rem;
 }
 
-.project-one {
-  width: 90%;
-  height: 400px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-left: 5%;
-  margin: 30px 5%;
-  background-color: #ddd;
-  border-radius: 5px;
-}
-
-.project-one .image-cont {
-  width: 45%;
-  height: auto;
-  padding: 30px;
-}
-
-.project-one .desc-cont {
-  width: 45%;
-  height: auto;
-}
-
-.project-two {
-  width: 90%;
+.front-end {
+  width: 100%;
   height: auto;
   display: flex;
   justify-content: space-around;
-  align-items: center;
-  margin-left: 5%;
-  margin: 30px 5%;
+  flex-direction: column;
+  box-shadow: 2px 2px 2px 5px rgba(6, 6, 124, 0.1);
+  padding: 20px;
+  margin: auto;
   border-radius: 5px;
 }
 
-.project-two .image-cont {
-  width: 45%;
-  height: auto;
-  padding: 30px;
-}
-
-.project-two .desc-cont {
-  width: 45%;
-  height: auto;
-}
-
-.project-three {
+.front-end .img-cont {
+  margin: auto;
   width: 90%;
-  height: auto;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-left: 5%;
-  margin: 30px 5%;
-  background-color: #ddd;
-  border-radius: 5px;
-}
-
-.project-three .image-cont {
-  width: 45%;
-  height: auto;
-  padding: 30px;
-}
-
-.project-three .desc-cont {
-  width: 45%;
-  height: auto;
-}
-
-.project-four {
-  width: 90%;
-  height: auto;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-left: 5%;
-  margin: 30px 5%;
-  border-radius: 5px;
-}
-
-.project-four .image-cont {
-  width: 45%;
-  height: auto;
-  padding: 30px;
-}
-
-.project-four .desc-cont {
-  width: 45%;
-  height: auto;
-}
-
-.project-five {
-  width: 90%;
-  height: auto;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-left: 5%;
-  margin: 30px 5%;
-  background-color: #ddd;
-  border-radius: 5px;
-}
-
-.project-five .image-cont {
-  width: 45%;
-  height: auto;
-  padding: 30px;
-}
-
-.project-five .desc-cont {
-  width: 45%;
-  height: auto;
-}
-
-.title {
-  font-size: 20px;
-  font-family: "Roboto Mono", monospace;
+  height: 60%;
+  border-radius: 10px;
   margin-bottom: 15px;
-  color: #005;
+  padding: 15px;
+  background-color: #005;
 }
 
-.paragraph {
+.front-end .img-cont img {
+  width: 200px;
+  height: 150px;
+}
+
+.front-end .text-cont {
+  width: 100%;
+  height: 40%;
+}
+
+.front-end .text-cont {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+.front-end .text-cont .heading {
+  text-transform: uppercase;
+  color: #005;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.front-end .text-cont .paragraph {
   font-size: 16px;
-  margin-bottom: 20px;
-  font-family: "Roboto Mono", monospace;
+  margin-bottom: 15px;
+}
+
+.front-end .text-cont button {
+  border: 1px solid #9318eb;
+  width: 40%;
+  height: 40px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgba(147, 24, 235, 0.2823529412);
 }
 
 .btn-cont {
   width: -moz-fit-content;
   width: fit-content;
   height: auto;
-  border: 1px solid #9318eb;
   display: flex;
   justify-content: space-between;
   padding: 10px;
   border-radius: 5px;
-  background-color: rgba(181, 152, 201, 0.6509803922);
 }
 
 .btn-github, .btn-live {

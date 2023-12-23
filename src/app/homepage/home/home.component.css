@@ -2,4 +2,6 @@
   width: 100%;
   height: auto;
   background-color: #f9f9f9;
+  float: left;
+  border: 5px solid tomato;
 }

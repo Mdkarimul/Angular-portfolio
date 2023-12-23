@@ -1,4 +1,13 @@
 
+.footer-cont{
+    width: 100%;
+    height: auto;
+    // border: 2px solid yellow;
+    float: left;
+}
+
+
+
 div  footer{
     width: 100%;
     height: auto;
@@ -53,8 +62,16 @@ footer .footer-content .btn-cont .btn-social{
     border-radius: 5px;
     padding:6px;
     border: none;
-
 }
+
+.btn-social:hover{
+    animation: zoom 300ms ease-in 0s 1 both;
+}
+@keyframes zoom {
+    0%{ transform: scale(1); }
+    100%{transform: scale(1.5);}
+}
+
 .follow-me{
     color: #FFFFFF;
     font-size: 15px;

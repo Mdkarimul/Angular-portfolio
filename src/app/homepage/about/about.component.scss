@@ -1,9 +1,10 @@
-.about-section{
+.about-cont{
     width: 100%;
-    float: left;
     height: auto;
-    display: flex;
-    border: 1px solid red;
+    // border: 1px solid red;
+    float: left;
+    padding: 150px 10px;
+    
 }
 .image-cont{
     width: 90%;
@@ -13,7 +14,7 @@
     justify-content: center;
 }
 .image-cont img{
-    border-top-left-radius: 10px;
+    border-radius: 10px;
     z-index: 1;
     object-fit: cover;
     position: relative;
@@ -23,7 +24,7 @@
     position: absolute;
     width: 50%;
     height:100%;
-    background-color: rgba(97, 91, 91, 0.4);
+    background-color:var(--color2);
     top: -4%;
     left:15%;
     border-top-left-radius: 10px;
@@ -34,10 +35,25 @@
     height: 80%;
   
 }
+.about-content .subtitle-cont{
+   position: relative;
+   width: auto;
+   height: 50px;
+}
 .about-content .sub-title{
     color:#9318eb;
-    text-transform: capitalize;
+    text-transform:uppercase;
     font-size: 1rem;
+    position: relative;
+}
+.about-content .sub-title .one{
+    animation: one 1s ease-in infinite backwards;
+    position: relative;
+}
+
+@keyframes one {
+    0%{ font-size:0.5rem;font-weight: bold; }
+    100%{ font-size: 2.5rem;font-weight: bold; }
 }
 
 .about-content .title{
@@ -45,6 +61,12 @@
     text-transform: capitalize;
     font-size:1.5rem;
     margin: 10px 0px 20px 0px;
+    background: -webkit-linear-gradient( var(--bg2), var(--color3));
+    text-shadow: 1px 1px 1px var(--color3);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
 }
 
 .about-content .paragraph{
@@ -58,15 +80,62 @@
 
 
 .skills{
-    height: 200px;
-  width: 200px;
-  display: grid;
-  grid-auto-columns: auto auto;
+ height:auto;
+ padding: 20px 20px;
+  width: 100%;
+  background-color:#9318eb;
+  border-top-right-radius: 150px;
+  border-bottom-right-radius: 150px;
+  border-top-left-radius: 150px;
+  border-bottom-left-radius: 150px;
+  color: var(--color1);
 }
-.skills div{
-    width: 100px;
-    height: 100%;
-    background-color: #9318eb;
+
+.skills .icon{
+    background-color: var(--color1);
+    margin-right: 10px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    padding:10px;
 }
+.skills .icon svg{
+    
+}
+
+.skills .content{
+}
+.skills .content p {
+    padding: 0px;
+    margin: 0px;
+}
+.skills .content span{
+   
+    display: block;
+    text-align: left;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+@media(max-width:900px){
+    .skills{
+         border-top-right-radius: 0px;
+         border-bottom-right-radius:0px;
+         border-top-left-radius: 0px;
+         border-bottom-left-radius: 0px;
+       }  
+       .skills .total-exp{
+        padding: 3rem  0px;
+       }
+       .skills .total-clients{
+        padding: 3rem 0px;
+       }
+       .skills .total-projects{
+        padding:3rem 0px;
+       }
+}
+
+
+
 
 

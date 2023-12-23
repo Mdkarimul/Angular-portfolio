@@ -1,9 +1,10 @@
-.client-feed-container{
+.client-feed-cont{
     width:90%;
     height: auto;
     margin-bottom: 10px;
     margin-left: 5%;
     float: left;
+    // border:2px solid blue;
 }
 
 
@@ -17,17 +18,22 @@
 }
 
 .service-heading .sub-title{
-    font-family: 'Roboto Mono', monospace;
     color:#9318eb;
     font-size: 1rem;
     
 }
 
 .service-heading .title{
-    font-family: 'Roboto Mono', monospace;
-    color:#9318eb;
-    text-transform:uppercase;
-    font-size:1.5rem;
+    font-size:2rem;
+    background: -webkit-linear-gradient( var(--bg1) , var(--color3));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+
+.service-heading .title span{
+    color: #9318eb;
 }
 
  .feed{
@@ -112,4 +118,6 @@
     z-index: 100;
     position: relative;
     top: -10px;
+    outline: 2px solid var(--color3);
+    outline-offset: 5px;
 }
