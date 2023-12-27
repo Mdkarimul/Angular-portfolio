@@ -10,6 +10,7 @@ import { AllInOneModule } from './external_material/material.module';
 @NgModule({
   declarations: [
     AppComponent,
+    
   ],
   imports: [
     BrowserModule,
@@ -17,6 +18,7 @@ import { AllInOneModule } from './external_material/material.module';
     BrowserAnimationsModule,
     AllInOneModule
   ],
+ 
   providers: [],
   bootstrap: [AppComponent]
 })

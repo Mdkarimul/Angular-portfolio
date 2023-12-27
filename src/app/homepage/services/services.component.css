@@ -10,8 +10,9 @@
 .service-heading {
   width: 90%;
   height: auto;
-  margin-top: 100px;
+  margin-top: 50px;
   padding: 20px;
+  border: 2px solid red;
 }
 
 .service-heading .sub-title {

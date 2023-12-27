@@ -12,6 +12,8 @@ import { FooterComponent } from '../footer/footer.component';
 import { PortfolioComponent } from '../portfolio/portfolio.component';
 import { ClientFeedComponent } from '../client-feed/client-feed.component';
 import { ContactComponent } from '../contact/contact.component';
+import { CarouselModule } from 'ngx-owl-carousel-o';
+
 @NgModule({
   declarations: [
     HomeComponent,
@@ -27,7 +29,8 @@ import { ContactComponent } from '../contact/contact.component';
   imports: [
     CommonModule,
     HomeRoutingModule,
-    AllInOneModule
+    AllInOneModule,
+    CarouselModule
   ]
 })
 export class HomeModule { }

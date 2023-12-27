@@ -57,25 +57,26 @@
 }
 
 .about-content .title{
-    color:#9318eb;
+    color:rgba(0, 0, 0, 0.774);
     text-transform: capitalize;
     font-size:1.5rem;
     margin: 10px 0px 20px 0px;
-    background: -webkit-linear-gradient( var(--bg2), var(--color3));
-    text-shadow: 1px 1px 1px var(--color3);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    // background: -webkit-linear-gradient( var(--bg2), var(--color3));
+    // text-shadow: 1px 1px 1px var(--color3);
+    // background-clip: text;
+    // -webkit-background-clip: text;
+    // -webkit-text-fill-color: transparent;
     font-weight: 600;
 }
 
 .about-content .paragraph{
-    color:rgba(0, 0, 85, 0.826);
+    color:rgba(0, 0, 0, 0.774);
     font-weight: 400;
     margin-bottom: 35px;
     line-height: 20px;
     letter-spacing:0.5px;
     font-size: 15px;
+    font-family: 'Poppins', sans-serif;
 }
 
 

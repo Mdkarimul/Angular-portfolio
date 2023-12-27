@@ -4,29 +4,53 @@ height:auto;
 float:left;
 margin: 10px 10%;
 // border: 2px solid  rgb(135, 135, 153);
-
 }
-.service-heading{
+.project-heading{
     width:100%;
     text-align: center;
     height:auto;
     margin:100px 0px;
     padding: 0px 20px; 
     border-radius: 5px;
+    
+}
+.project-heading h2{
+    margin-bottom:30px;
+    color: #005;
+}
+.project-heading ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+   
+}
+.project-heading ul li{
+    display: inline-block;
+    padding: 10px 20px;
+    border-bottom: 2px solid #9318eb;
+}
+.project-heading ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #005;
+    font-family: 'Poppins', sans-serif;
+}
+.project-heading ul li:first-child{
+    background-color: #9318eb;
 }
 
-.service-heading .subtitle-cont{
+.project-heading .subtitle-cont{
     position: relative;
     width: auto;
     height: 50px;
  }
- .service-heading .sub-title{
-     color:#9318eb;
+ .project-heading .title{
+     color:rgba(6, 6, 124, 0.1);
      text-transform:uppercase;
      font-size: 1rem;
      position: relative;
  }
- .service-heading .sub-title .one{
+ .project-heading .sub-title .one{
      animation: one 1s ease-in infinite backwards;
      position: relative;
  }
@@ -36,17 +60,11 @@ margin: 10px 10%;
      100%{ font-size: 2.5rem;font-weight: bold; }
  }
 
-.service-heading .sub-title{
-    color:#9318eb;
-    text-transform: uppercase;
-    font-size: 1rem;
-    margin-top: 8px;
-    
-}
 
-.service-heading .title{
-    color:#9318eb;
+.project-heading .title{
+    color:rgb(6, 6, 1);
     font-size:1.5rem; 
+    font-weight: 600;
 }
 
 .front-end{
@@ -68,9 +86,10 @@ margin: 10px 10%;
    margin-bottom:15px;
    padding:15px;
    background-color: #005;
+   background-size: contain;
 }
 .front-end .img-cont img{
-    width: 200px;
+    width:100%;
     height: 150px;
 }
  .front-end .text-cont{
@@ -85,10 +104,9 @@ margin: 10px 10%;
     padding: 10px;
  }
   .front-end .text-cont .heading{
-    text-transform: uppercase;
     color:#005;
     margin-bottom: 15px;
-    font-size:20px;
+    font-size:19px;
  }
 
  .front-end .text-cont .paragraph{
@@ -145,8 +163,7 @@ margin: 10px 10%;
     background-color: var(--color1);
     padding:2px 5px;
     border-radius: 5px;
-    -webkit-mask-image: linear-gradient(black, transparent);
-    mask-image: linear-gradient(black, transparent);
+
 }
 .btn-download{
     color: var(--color1);
