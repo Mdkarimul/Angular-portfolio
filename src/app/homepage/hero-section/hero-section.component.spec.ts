@@ -8,8 +8,8 @@ describe('HeroSectionComponent', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [HeroSectionComponent]
-    });
+    imports: [HeroSectionComponent]
+});
     fixture = TestBed.createComponent(HeroSectionComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
