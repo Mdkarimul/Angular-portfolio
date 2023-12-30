@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { setAlternateWeakRefImpl } from '@angular/core/primitives/signals';
 
 @Component({
   selector: 'app-portfolio',
@@ -6,5 +7,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./portfolio.component.scss']
 })
 export class PortfolioComponent {
+
+
+  project_tab(Ele:Element){
+   
+    Ele.classList.add("active");
+    console.log(Ele.classList);
+  }
+
 
 }

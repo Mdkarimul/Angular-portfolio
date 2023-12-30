@@ -6,7 +6,6 @@
     padding-bottom: 50px;
    //  border: 3px solid #005;
    margin: 10px 10%;
-    
 }
 
 .service-heading{
@@ -65,7 +64,7 @@
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    background-color:rgba(238, 8, 219, 0.5);
+    background-image: linear-gradient(to right ,var(--bg1), var(--bg2));
    // border-bottom: 2px solid #9318eb;
     padding: 20px;
     margin: auto;
@@ -101,6 +100,7 @@
  .front-end .text-cont .paragraph{
     font-size: 16px;
     margin-bottom: 15px;
+    color: var(--color1);
  }
  .front-end .text-cont button{
     border: 1px solid #9318eb;
@@ -126,7 +126,7 @@
  .back-end{
     width:90%;
     height:auto;
-    background-color:rgba(238, 8, 219, 0.5);
+    background-image: linear-gradient(to right ,var(--bg1), var(--bg2));
    //  border-bottom: 2px solid #9318eb;
    //  box-shadow: 0px 2px 4px 1px rgba(0, 0, 85, 0.418);
     padding: 20px;
@@ -163,6 +163,7 @@
    .back-end .text-cont .paragraph{
     font-size: 16px;
     margin-bottom: 15px;
+    color: var(--color1);
   }
   .back-end .text-cont button{
     border: 1px solid #9318eb;
@@ -184,7 +185,7 @@
  .devops{
     width:90%;
     height:auto;
-   background-color:rgba(238, 8, 219, 0.5);
+    background-image: linear-gradient(to right ,var(--bg1), var(--bg2));
 //   border-bottom: 2px solid #9318eb;
     padding: 20px;
     border-radius: 5px;
@@ -221,6 +222,7 @@
  .devops .text-cont .paragraph{
     font-size: 16px;
     margin-bottom: 15px;
+    color: var(--color1);
   }
   .devops .text-cont button{
     border: 1px solid #9318eb;

@@ -3,7 +3,6 @@ width:80%;
 height:auto;
 float:left;
 margin: 10px 10%;
-// border: 2px solid  rgb(135, 135, 153);
 }
 .project-heading{
     width:100%;
@@ -12,7 +11,6 @@ margin: 10px 10%;
     margin:100px 0px;
     padding: 0px 20px; 
     border-radius: 5px;
-    
 }
 .project-heading h2{
     margin-bottom:30px;
@@ -28,15 +26,18 @@ margin: 10px 10%;
     display: inline-block;
     padding: 10px 20px;
     border-bottom: 2px solid #9318eb;
+    cursor: pointer;
 }
-.project-heading ul li a{
+.project-heading ul li span{
     text-decoration: none;
     text-transform: uppercase;
-    color: #005;
     font-family: 'Poppins', sans-serif;
 }
 .project-heading ul li:first-child{
     background-color: #9318eb;
+}
+.active span{
+    color: white;
 }
 
 .project-heading .subtitle-cont{

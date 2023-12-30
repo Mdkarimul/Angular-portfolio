@@ -22,11 +22,10 @@
             
             <h2 class="title">Portfolio</h2>
             <ul>
-                <li><a href="">web</a></li>
-                <li><a href="">movile</a></li>
-                <li><a href="">gemae</a></li>
-                <li><a href="">backend</a></li>
-                <li><a href="">front</a></li>
+                <li class="active" (click)="project_tab(ele)" #ele><span>All</span></li>
+                <li (click)="project_tab(ele)" #ele><span>Web</span></li>
+                <li (click)="project_tab(ele)" #ele><span>Mobile</span></li>
+                <li (click)="project_tab(ele)" #ele><span>Others</span></li>
             </ul>
         </div>  
 
