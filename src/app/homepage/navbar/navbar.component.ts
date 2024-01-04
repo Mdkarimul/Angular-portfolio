@@ -6,6 +6,7 @@ import { transitionAnimation } from '../../animations';
   selector: 'app-navbar',
   templateUrl: './navbar.component.html',
   styleUrls: ['./navbar.component.scss'],
+  standalone:true,
   animations: [
 
 

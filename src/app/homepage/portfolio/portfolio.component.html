@@ -22,10 +22,10 @@
             
             <h2 class="title">Portfolio</h2>
             <ul>
-                <li class="active" (click)="project_tab(ele)" #ele><span>All</span></li>
-                <li (click)="project_tab(ele)" #ele><span>Web</span></li>
-                <li (click)="project_tab(ele)" #ele><span>Mobile</span></li>
-                <li (click)="project_tab(ele)" #ele><span>Others</span></li>
+                <li [class.active]="all" (click)="project_tab('all')" #ele><span>All</span></li>
+                <li [class.active]="web" (click)="project_tab('web')" #ele><span>Web</span></li>
+                <li [class.active]="mobile" (click)="project_tab('mobile')" #ele><span>Mobile</span></li>
+                <li [class.active]="others" (click)="project_tab('others')" #ele><span>Others</span></li>
             </ul>
         </div>  
 

@@ -17,15 +17,16 @@ margin: 10px 10%;
     color: #005;
 }
 .project-heading ul{
+    width: fit-content;
     list-style: none;
     padding: 0px;
-    margin: 0px;
+    margin:auto;
+    border: 1px solid #9318eb;
    
 }
 .project-heading ul li{
     display: inline-block;
     padding: 10px 20px;
-    border-bottom: 2px solid #9318eb;
     cursor: pointer;
 }
 .project-heading ul li span{
@@ -33,11 +34,10 @@ margin: 10px 10%;
     text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
 }
-.project-heading ul li:first-child{
-    background-color: #9318eb;
-}
-.active span{
+
+.active{
     color: white;
+    background-color: #9318eb;
 }
 
 .project-heading .subtitle-cont{

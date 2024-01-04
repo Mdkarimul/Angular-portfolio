@@ -8,8 +8,8 @@ describe('HeroSectionComponent', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [HeroSectionComponent]
-    });
+    declarations: [HeroSectionComponent]
+});
     fixture = TestBed.createComponent(HeroSectionComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
