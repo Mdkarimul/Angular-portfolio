@@ -8,7 +8,11 @@ describe('ContactComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
+<<<<<<< HEAD
     declarations: [ContactComponent]
+=======
+    imports: [ContactComponent]
+>>>>>>> 39544537facb2c98129f97ba225b9cd092140912
 })
     .compileComponents();
     

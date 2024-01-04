@@ -8,7 +8,11 @@ describe('AboutComponent', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
+<<<<<<< HEAD
     declarations: [AboutComponent]
+=======
+    imports: [AboutComponent]
+>>>>>>> 39544537facb2c98129f97ba225b9cd092140912
 });
     fixture = TestBed.createComponent(AboutComponent);
     component = fixture.componentInstance;

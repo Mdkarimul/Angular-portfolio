@@ -3,10 +3,17 @@ import { setAlternateWeakRefImpl } from '@angular/core/primitives/signals';
 import { TitleStrategy } from '@angular/router';
 
 @Component({
+<<<<<<< HEAD
   selector: 'app-portfolio',
   templateUrl: './portfolio.component.html',
   styleUrls: ['./portfolio.component.scss'],
   standalone:true,
+=======
+    selector: 'app-portfolio',
+    templateUrl: './portfolio.component.html',
+    styleUrls: ['./portfolio.component.scss'],
+    standalone: true
+>>>>>>> 39544537facb2c98129f97ba225b9cd092140912
 })
 export class PortfolioComponent {
 

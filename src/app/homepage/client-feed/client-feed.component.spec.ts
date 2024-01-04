@@ -8,7 +8,11 @@ describe('ClientFeedComponent', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
+<<<<<<< HEAD
     declarations: [ClientFeedComponent]
+=======
+    imports: [ClientFeedComponent]
+>>>>>>> 39544537facb2c98129f97ba225b9cd092140912
 });
     fixture = TestBed.createComponent(ClientFeedComponent);
     component = fixture.componentInstance;
