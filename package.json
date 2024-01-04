@@ -10,19 +10,6 @@
   },
   "private": true,
   "dependencies": {
-<<<<<<< HEAD
-    "@angular/animations": "^17.0.2",
-    "@angular/cdk": "^16.2.1",
-    "@angular/common": "^17.0.2",
-    "@angular/compiler": "^17.0.2",
-    "@angular/core": "^17.0.2",
-    "@angular/forms": "^17.0.2",
-    "@angular/material": "^16.2.1",
-    "@angular/platform-browser": "^17.0.2",
-    "@angular/platform-browser-dynamic": "^17.0.2",
-    "@angular/platform-server": "^17.0.8",
-    "@angular/router": "^17.0.2",
-=======
     "@angular/animations": "^17.0.8",
     "@angular/cdk": "^17.0.4",
     "@angular/common": "^17.0.8",
@@ -34,7 +21,6 @@
     "@angular/platform-browser-dynamic": "^17.0.8",
     "@angular/platform-server": "^17.0.8",
     "@angular/router": "^17.0.8",
->>>>>>> 39544537facb2c98129f97ba225b9cd092140912
     "bootstrap": "^5.3.2",
     "cli-spinners": "^2.9.2",
     "encodeurl": "^1.0.2",
@@ -44,21 +30,15 @@
     "zone.js": "~0.14.2"
   },
   "devDependencies": {
-<<<<<<< HEAD
+
     "@angular-devkit/build-angular": "^17.0.0",
     "@angular/cli": "^17.0.0",
     "@angular/compiler-cli": "^17.0.2",
     "@types/jasmine": "~4.3.0",
     "jasmine-core": "~4.6.0",
     "karma": "~6.4.0",
-=======
-    "@angular-devkit/build-angular": "^16.2.11",
-    "@angular/cli": "~16.0.0",
-    "@angular/compiler-cli": "^17.0.8",
-    "@types/jasmine": "~5.1.4",
-    "jasmine-core": "~5.1.1",
-    "karma": "~6.4.2",
->>>>>>> 39544537facb2c98129f97ba225b9cd092140912
+
+
     "karma-chrome-launcher": "~3.2.0",
     "karma-coverage": "~2.2.1",
     "karma-jasmine": "~5.1.0",

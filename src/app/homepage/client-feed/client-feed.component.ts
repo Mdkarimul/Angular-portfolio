@@ -1,20 +1,14 @@
 import { Component } from '@angular/core';
 import { CarouselModule,  OwlOptions } from 'ngx-owl-carousel-o';
 @Component({
-<<<<<<< HEAD
+
   selector: 'app-client-feed',
   templateUrl: './client-feed.component.html',
   styleUrls: ['./client-feed.component.scss'],
   standalone:true,
   imports : [CarouselModule]
 
-=======
-    selector: 'app-client-feed',
-    templateUrl: './client-feed.component.html',
-    styleUrls: ['./client-feed.component.scss'],
-    standalone: true,
-    imports: [CarouselModule],
->>>>>>> 39544537facb2c98129f97ba225b9cd092140912
+
 })
 export class ClientFeedComponent {
 
