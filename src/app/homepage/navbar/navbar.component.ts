@@ -1,7 +1,7 @@
 import { Component, HostListener, ViewChild } from '@angular/core';
 
 import { transition, trigger, useAnimation,state,style,animate, AnimationEvent } from '@angular/animations';
-import { transitionAnimation } from '../../animations';
+
 @Component({
 
 
